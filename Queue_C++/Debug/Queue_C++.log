@@ -1,0 +1,4 @@
+﻿  Queue_C++.cpp
+D:\mospolytech\3_term\FMA\FMA_git\osa-labs-2022-II-lab-1-DmitriiDerendyaev\Queue_C++\Queue_C++.cpp(47,42): warning C4101: 'code': unreferenced local variable
+D:\mospolytech\3_term\FMA\FMA_git\osa-labs-2022-II-lab-1-DmitriiDerendyaev\Queue_C++\Queue_C++.cpp(48,10): warning C4101: 'ch': unreferenced local variable
+  Queue_C++.vcxproj -> D:\mospolytech\3_term\FMA\FMA_git\osa-labs-2022-II-lab-1-DmitriiDerendyaev\Queue_C++\Debug\Queue_C++.exe
