@@ -1,26 +1,27 @@
 public class Stack {
+
+    private int[] array;
+    private int top;
+    private int sizeStack;
     public Stack()
     {
         top = -1;
         array = new int[10];
     }
-    public Stack(int N) {
+    public Stack(int sizeStack) {
         top = -1;
-        array = new int[N];
+        array = new int[sizeStack];
+        this.sizeStack = sizeStack;
     }
 
-    private int[] array;
-    private int top;
-    private int N;
-
-    public
-    public void push(int a){
-        if(top == N-1){
+    //public
+    public void push(int addedElement){
+        if(top == sizeStack-1){
             System.out.println("Стек переполнен!!!");
         }
         else {
             top++;
-            array[top] = a;
+            array[top] = addedElement;
         }
     }
 
